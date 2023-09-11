@@ -1,5 +1,9 @@
 <nav class="header">
-    <h1 class="text-lg px-6">Iqralabs</h1>
+    <h1 class="text-lg px-6">
+        <a href="{{ route('lara-translate.index') }}" class="active">
+        Iqralabs
+        </a>
+    </h1>
     <ul class="flex-grow justify-end pr-2">
         <li>
             <a href="{{ route('lara-translate.index') }}" class="active">

@@ -1,6 +1,6 @@
 @extends("lara-translate::layout")
 @section("content")
-<div class="panel w-2/3 m-auto my-8">
+<div class="panel my-12">
     <div class="panel-header">
         {{__("Add a language")}}
     </div>
@@ -18,8 +18,11 @@
             </div>
         </fieldset>
         <div class="panel-footer flex flex-row-reverse">
-            <button class="button button-black">
+            <button class="button button-black" style="margin-left: 10px;">
                 {{__("Save")}}
+            </button>
+            <button href="{{ route('lara-translate.index') }}" class="button button-black">
+                {{__("Back")}}
             </button>
         </div>
     </form>
