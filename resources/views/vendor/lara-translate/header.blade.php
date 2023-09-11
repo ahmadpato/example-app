@@ -1,5 +1,5 @@
 <nav class="header">
-    <h1 class="text-lg px-6">{{env('APP_NAME')}}</h1>
+    <h1 class="text-lg px-6">Iqralabs</h1>
     <ul class="flex-grow justify-end pr-2">
         <li>
             <a href="{{ route('lara-translate.index') }}" class="active">

@@ -22,7 +22,7 @@ class LanguageController extends Controller {
     public function index() 
     {
         $langs = $this->language_service->getTranslationLangs();
-        dd($langs);
+
         return view('lara-translate::languages.index', ['langs' => $langs]);
     }
 
